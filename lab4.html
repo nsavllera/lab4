@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Change Paragraph Content</title>
+</head>
+<body>
+    <div id="myElement">
+        <p id="myParagraph">Welcome to my website!</p>
+    </div>
+
+    <button onclick="changeContent()">Click Me</button>
+
+    <script>
+        function changeContent() {
+            let text_1 = document.getElementById("myParagraph");
+            text_1.textContent="Hello There!";
+        }
+    </script>
+</body>
+</html>
